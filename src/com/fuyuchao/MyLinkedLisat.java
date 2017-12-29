@@ -11,7 +11,9 @@ class MyLinkedList<AnyType> {
 
     private static class Node<AnyType> {
         public AnyType data;
+        //上一个指向
         public Node<AnyType> prev;
+        //先一个指向
         public Node<AnyType> next;
 
         public Node(AnyType d, Node<AnyType> p, Node<AnyType> n) {
